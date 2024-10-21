@@ -7,7 +7,7 @@ def two(x):
     n=2
     while (x>n):
         x/=n
-    if (x==2): print('Yes')
+    if (x==2): return print('Yes')
 x=int(input())
 print (two(x))
 
