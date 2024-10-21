@@ -6,16 +6,18 @@
 # 378
 # Вывод:
 # 2*3*3*3*7
-x=int(input())
-n=2
-a=0
-while (x>n):
-    while (x%n==0):
-        x=x/n
-        a+=1
-    if (a>0): print(a,'*', n)
-    n+=1
+def mnog(x):
+    n=2
     a=0
-print(1,'*',x)
+    while (x>n):
+        while (x%n==0):
+            x=x/n
+            a+=1
+        if (a>0): print(a,'*', n)
+        n+=1
+        a=0
+    print(1,'*',x)
+x=int(input())
+print (mnog(x))
 
 

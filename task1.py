@@ -10,9 +10,13 @@
 # ********
 # *********
 # **********
+def add(N):
+    c=('*')
+    n=0
+    a=0
+    while (n<N+1):
+        print(a*c)
+        a+=1
+        N-=1
 N = int(input())
-c=('*')
-n=0
-while (n<N+1):
-    print (n*c)
-    n+=1
+print(add(N))

@@ -1,5 +1,5 @@
-print(' '.join(input('Введите число: ')))
-
-a+=t%N*10**n
-    t-=(t//N)*N
-    n+=1
+x=int(input())
+n=2
+while (x>n):
+    x/=n
+if (x==2): print('Yes')
