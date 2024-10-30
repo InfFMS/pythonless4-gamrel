@@ -9,5 +9,5 @@ def two(x):
         x/=n
     if (x==2): return print('Yes')
 x=int(input())
-print (two(x))
+two(x)
 

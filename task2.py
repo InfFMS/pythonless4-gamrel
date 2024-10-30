@@ -30,4 +30,4 @@ def chet(n):
      elif (n > 20):print(k2.get(n2) + ' ' + k1.get(n1))
      else: print(k3.get(n))
 n = int(input())
-print(chet(n))
+chet(n)

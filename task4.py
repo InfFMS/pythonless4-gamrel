@@ -13,5 +13,5 @@ def MinMax(X, Y):
     print(A)
 X=int(input())
 Y=int(input())
-print(MinMax(X, Y))
+MinMax(X, Y)
 

@@ -44,7 +44,7 @@ def convert_base(num, from_base, to_base):
         T=(k2.get(a[k]))
         k+=1
         print(T, end = "")
-num = int(input())
+num = (input())
 from_base = int(input())
 to_base = int(input())
-print(convert_base(num, from_base, to_base))
+convert_base(num, from_base, to_base)

@@ -10,6 +10,8 @@
 # 5 3
 def MinMax(X, Y):
     A=1
+    C=X
+    c=Y
     while ((X%A==0)and(Y%A==0)):
         A = 1
         if (X > Y):
@@ -24,7 +26,8 @@ def MinMax(X, Y):
         if (X%A==0)and(Y%A==0):
             X=X/A
             Y=Y/A
+        if ((X%A<1)and(Y%A<1)): return (print(C, c))
     print (X,Y)
 X=int(input())
 Y=int(input())
-print (MinMax(X, Y))
+MinMax(X, Y)

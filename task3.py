@@ -14,13 +14,13 @@ def Rim(n):
      k3 = {100: 'C', 200: 'CC', 300: 'CCC',
           400: 'CD', 500: 'D', 600: 'DC',
           700: 'DCC', 800: 'DCCC', 900: 'CM', 0:''}
-     k4 = {1000: 'M', 2000:'M', 3000:'M', 0:''}
+     k4 = {1000: 'M', 2000:'MM', 3000:'MMM', 0:''}
      n1 = n % 10
      n2 = n % 100 - n1
      n3 = n % 1000 -n1 -n2
      n4 = n%10000 - n1 - n2 -n3
-     print(k4.get(n4), k3.get(n3), k2.get(n2), k1.get(n1))
+     print(k4.get(n4), k3.get(n3), k2.get(n2), k1.get(n1), sep='')
 n = int(input())
-print(Rim(n))
+Rim(n)
 
 

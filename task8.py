@@ -21,5 +21,5 @@ def mnog(x):
     l+=c+str(x)
     return print(l)
 x=int(input())
-print (mnog(x))
+mnog(x)
 

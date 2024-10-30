@@ -9,15 +9,17 @@ def round(N):
     b=0
     k=0
     c=10
+    l=1
     while (N//c>0.1):
         c*=10
     while (N/n>0.1):
         a=N%n
-        k=a-k
-        c/=100
+        k=a//l
+        l*=10
+        c/=10
         b+=k*c
         n*=10
-    print(b*100//10)
+    print(b)
     if N==1: print(N)
 N = int(input())
-print(round(N))
+round(N)
